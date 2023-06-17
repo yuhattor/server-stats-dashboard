@@ -2,8 +2,8 @@
 
 The GitHub Enterprise Server Dashboard is a sample implementation of a dashboard for GitHub Enterprise Server. It provides server statistics and collects aggregate usage data from your GitHub Enterprise Server instance, allowing you to better anticipate the needs of your organization, understand how your team works, and demonstrate the value you get from GitHub Enterprise Server.
 
-[Watch the YouTube video :video_camera:](https://youtu.be/watch?feature=player_embedded&v=iH-u35a733E)
-<a href="https://youtu.be/watch?feature=player_embedded&v=iH-u35a733E" target="_blank">
+[Watch the YouTube video :video_camera:](https://youtu.be/watch?feature=player_embedded&v=fiAol8zS3YE)
+<a href="https://youtu.be/watch?feature=player_embedded&v=fiAol8zS3YE" target="_blank">
  <img src="images/youtube-thumbnail-with-play-button.png" alt="Watch the video" width="100%" />
 </a>
 
