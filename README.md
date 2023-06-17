@@ -4,7 +4,7 @@ The GitHub Enterprise Server Dashboard is a sample implementation of a dashboard
 
 [Watch the YouTube video :video_camera:](https://youtu.be/watch?feature=player_embedded&v=iH-u35a733E)
 <a href="https://youtu.be/watch?feature=player_embedded&v=iH-u35a733E" target="_blank">
- <img src="images/youtube-video-thumbnail.jpg" alt="Watch the video" width="100%" />
+ <img src="images/youtube-thumbnail-with-play-button.png" alt="Watch the video" width="100%" />
 </a>
 
 ## Features
