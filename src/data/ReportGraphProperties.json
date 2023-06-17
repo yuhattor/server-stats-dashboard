@@ -1,0 +1,89 @@
+[
+  {
+    "title": "Issues",
+    "data": [
+      {
+        "key": "issues",
+        "title": "Total Issues",
+        "categories": [
+          "last_month_total_issues",
+          "total_issues"
+        ]
+      },
+      {
+        "key": "issues",
+        "title": "Open Issues",
+        "categories": [
+          "last_month_open_issues",
+          "open_issues"
+        ]
+      },
+      {
+        "key": "issues",
+        "title": "Closed Issues",
+        "categories": [
+          "last_month_closed_issues",
+          "closed_issues"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Pull Requests",
+    "data": [
+      {
+        "key": "pulls",
+        "title": "Total Pull Requests",
+        "categories": [
+          "last_month_total_pulls",
+          "total_pulls"
+        ]
+      },
+      {
+        "key": "pulls",
+        "title": "Merged Pull Requests",
+        "categories": [
+          "last_month_merged_pulls",
+          "merged_pulls"
+        ]
+      },
+      {
+        "key": "pulls",
+        "title": "Mergeable Pull Requests",
+        "categories": [
+          "last_month_mergeable_pulls",
+          "mergeable_pulls"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Comments",
+    "data": [
+      {
+        "key": "comments",
+        "title": "Total Commit Comments",
+        "categories": [
+          "last_month_total_commit_comments",
+          "total_commit_comments"
+        ]
+      },
+      {
+        "key": "comments",
+        "title": "Total Issue Comments",
+        "categories": [
+          "last_month_total_issue_comments",
+          "total_issue_comments"
+        ]
+      },
+      {
+        "key": "comments",
+        "title": "Total Pull Request Comments",
+        "categories": [
+          "last_month_total_pull_request_comments",
+          "total_pull_request_comments"
+        ]
+      }
+    ]
+  }
+]

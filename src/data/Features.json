@@ -1,0 +1,11 @@
+{
+    "Contributions": "contributions",
+    "Search": "search",
+    "Private Search": "private_search",
+    "License Sync": "license_sync",
+    "Content Analysis": "content_analysis",
+    "Content Analysis Notifications": "content_analysis_notifications",
+    "Actions Download Archive": "actions_download_archive",
+    "Usage Metrics": "usage_metrics",
+    "Dependabot Alerts": "dependabot_access"
+}

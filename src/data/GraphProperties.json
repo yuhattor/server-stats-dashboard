@@ -1,0 +1,111 @@
+[
+  {
+    "title": "Key Activity Metrics",
+    "data": [
+      {
+        "key": "issues",
+        "title": "Issues",
+        "categories": [
+          "total_issues",
+          "open_issues",
+          "closed_issues"
+        ]
+      },
+      {
+        "key": "pulls",
+        "title": "Pull Requests",
+        "categories": [
+          "total_pulls",
+          "merged_pulls",
+          "mergeable_pulls",
+          "unmergeable_pulls"
+        ]
+      },
+      {
+        "key": "comments",
+        "title": "Comments",
+        "categories": [
+          "total_commit_comments",
+          "total_gist_comments",
+          "total_issue_comments",
+          "total_pull_request_comments"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Key Organizational Metrics",
+    "data": [
+      {
+        "key": "users",
+        "title": "Users",
+        "categories": [
+          "total_users",
+          "admin_users",
+          "suspended_users"
+        ]
+      },
+      {
+        "key": "repos",
+        "title": "Repositories",
+        "categories": [
+          "total_repos",
+          "root_repos",
+          "fork_repos",
+          "org_repos",
+          "total_pushes",
+          "total_wikis"
+        ]
+      },
+      {
+        "key": "orgs",
+        "title": "Organizations",
+        "categories": [
+          "total_orgs",
+          "disabled_orgs",
+          "total_teams",
+          "total_team_members"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Other Metrics",
+    "data": [
+      {
+        "key": "hooks",
+        "title": "Hooks",
+        "categories": [
+          "total_hooks",
+          "active_hooks",
+          "inactive_hooks"
+        ]
+      },
+      {
+        "key": "pages",
+        "title": "Pages",
+        "categories": [
+          "total_pages"
+        ]
+      },
+      {
+        "key": "gists",
+        "title": "Gists",
+        "categories": [
+          "total_gists",
+          "private_gists",
+          "public_gists"
+        ]
+      },
+      {
+        "key": "milestones",
+        "title": "Milestones",
+        "categories": [
+          "total_milestones",
+          "open_milestones",
+          "closed_milestones"
+        ]
+      }
+    ]
+  }
+]
