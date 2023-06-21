@@ -10,7 +10,6 @@
   "bugs": {
     "url": "https://github.com/yuhattor/server-stats-dashboard/issues"
   },
-  "homepage": "https://github.com/yuhattor/server-stats-dashboard#readme",
   "description": "This is a sample implementation of a dashboard that allows you to view and analyze Server Statistics data",
   "repository": {
     "type": "git",
