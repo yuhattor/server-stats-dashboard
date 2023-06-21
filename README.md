@@ -20,15 +20,20 @@ The GitHub Enterprise Server Dashboard is a sample implementation of a dashboard
 
 To install and run the GitHub Enterprise Server Dashboard, follow these steps:
 
-1. Fork the repository
-2. Set GitHub Personal Access Token in the GitHub Action's secret
-3. Set the Enterprise Name in the GitHub Action's secret
+1. Fork the repository to your desired organization to host the dashboad with GitHub Pages
+2. Set GitHub Personal Access Token in the GitHub Action's secret ```GH_PAT```
+3. Set the Enterprise Name in the GitHub Action's secret ```ENTERPRISE_NAME```
 4. Then, GitHub Actions run the workflow and dashboard is deployed to the GitHub Pages
 5. Access the dashboard page in GitHub Pages
 
 ## Build
 
 To build the GitHub Enterprise Server Dashboard, follow these steps:
+
+1. Install packages ```npm install```
+2. Copy the downloaded server statistics json file ```cp <YOUR_DOWNLOADED_FILE> ./stats-export.json```
+3. Run conversion script ```npm run convert-data stats-export.json```
+4. Run the server ```npm server```
 
 ## Contributing
 
