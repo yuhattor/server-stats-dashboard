@@ -48,7 +48,7 @@ const Dashboard = () => {
           <TabList className="mt-4" variant="solid">
             <Tab>Monthly Change Trend</Tab>
             <Tab>Change Over Time</Tab>
-            <Tab>Comulative</Tab>
+            <Tab>Cumulative</Tab>
             <Tab>Increase/Decrease</Tab>
           </TabList>
           <TabPanels>
