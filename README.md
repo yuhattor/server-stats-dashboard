@@ -33,7 +33,7 @@ To build the GitHub Enterprise Server Dashboard, follow these steps:
 1. Install packages ```npm install```
 2. Copy the downloaded server statistics json file ```cp <YOUR_DOWNLOADED_FILE> ./stats-export.json```
 3. Run conversion script ```npm run convert-data stats-export.json```
-4. Run the server ```npm server```
+4. Run the server ```npm start```
 
 ## Contributing
 
