@@ -24,3 +24,4 @@ yarn-error.log*
 
 # loca server-stats data
 stats-export*.json
+src/data/data.json
