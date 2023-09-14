@@ -35,6 +35,22 @@ To build the GitHub Enterprise Server Dashboard, follow these steps:
 3. Run conversion script ```npm run convert-data stats-export.json```
 4. Run the server ```npm start```
 
+## Fork and CI/CD
+
+To fork this repository and run in your environment, follow these steps:
+
+1. Fork the repository
+2. Set your PAT with `read:enterprise` permission to GitHub Actions `GH_SECRET`
+3. Set your enterprise name to GitHub Actions Secret `ENTERPRISE_NAME`
+4. Run the GitHub Actions workflow manually (or you can customize the condition)
+
+Sample condition
+```
+on:
+  schedule:
+    # Run the process at 02:00 in UTC
+    - cron: '0 2 * * 1'
+```
 ## Contributing
 
 We welcome contributions to the GitHub Enterprise Server Dashboard project. To contribute, please follow these steps:
