@@ -44,26 +44,7 @@ fs.readFile(fileName, 'utf-8', (err, data) => {
 	}
 
 	const allData = {};
-	for (const [serverId, serverData] of Object.entries(dataFrames)) {
-		const serverDataJson = {};
-		for (const [key, value] of Object.entries(serverData)) {
-			if (key === 'info') {
-				serverDataJson['info'] = value;
-			} else {
-				const dataListGroupedByDate = _.groupBy(value, 'Date');
-				const dataList = [];
-				for (const [date, group] of Object.entries(dataListGroupedByDate)) {
-					const dataDict = { Date: date };
-					for (const row of group) {
-						dataDict[row['Type']] = row['Count'];
-					}
-					dataList.push(dataDict);
-				}
-				serverDataJson[key] = dataList;
-			}
-		}
-		allData[serverId] = serverDataJson;
-	}
+
 	
 	fs.writeFile('src/data/data.json', JSON.stringify(allData, null, 4), err => {
 		if (err) {
